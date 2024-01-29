@@ -1,16 +1,6 @@
 import weaviate
 import weaviate.classes as wvc
 from utils import get_dataset
-from peft import LoraConfig, PeftModel, prepare_model_for_kbit_training, get_peft_model
-
-peft_config = LoraConfig(
-        r=16,
-        lora_alpha=16,
-        lora_dropout=0.05,
-        bias="none",
-        task_type="CAUSAL_LM",
-        target_modules=["q_proj", "k_proj", "v_proj", "o_proj","gate_proj"]
-)
 
 client = weaviate.connect_to_local()
 
