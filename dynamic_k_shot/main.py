@@ -12,13 +12,10 @@ else:
         vectorizer_config=wvc.config.Configure.Vectorizer.text2vec_transformers()
     )
 
-dataset = get_dataset()
-# print(dataset[0])
+if reports.__len__() == 0:
+        dataset = get_dataset()
+        reports.data.insert_many(dataset)
 
-# reports.data.insert_many(dataset)
-
-response = reports.query.near_text(query="", limit=3)
-print(response)
-
-# def get_k_similar(k):
-    # response = reports.query.near_text(query="", limit=3)
+query = "This is a test"
+response = reports.query.near_text(query=query, limit=3)
+print(response.objects)
