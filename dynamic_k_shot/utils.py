@@ -11,7 +11,7 @@ def get_dataset():
     if not os.path.exists("./train.csv"):
         wget.download(train_dataset_path, "./train.csv")
 
-    with open("./train.csv") as file:
+    with open("./train.csv", encoding="utf-8") as file:
         csv_reader = csv.reader(file)
 
         for row in csv_reader:
