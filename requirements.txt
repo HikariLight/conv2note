@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch
+torchvision 
+torchaudio
+transformers
+peft
+weaviate-client
+wget
+git + https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.41.0-py3-none-win_amd64.whl
+notebook
+evaluate

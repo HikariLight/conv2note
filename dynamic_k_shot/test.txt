@@ -1,0 +1,15 @@
+Doctor: Good morning, Mr. Smith. How are you feeling today?
+Patient: Good morning, Doctor. I've been better, to be honest. I've been having some chest pain and shortness of breath lately.
+Doctor: I'm sorry to hear that. How long have you been experiencing these symptoms?
+Patient: It's been about a week now. At first, I thought it might just be stress, but it's been getting worse.
+Doctor: I see. Have you noticed if anything triggers these symptoms or if they occur at certain times of the day?
+Patient: Well, the chest pain seems to come on after I've been active or when I'm feeling particularly stressed.
+Doctor: Okay. Have you had any previous heart-related issues or any family history of heart disease?
+Patient: Not that I know of, Doctor.
+Doctor: Alright. I'd like to conduct a physical examination and run some tests to better understand what might be causing your symptoms. We may need to perform an EKG, chest X-ray, and some blood work to start.
+Patient: Sounds good, Doctor. I just want to figure out what's going on.
+Doctor: Absolutely, Mr. Smith. We'll work together to get to the bottom of this. In the meantime, I'd recommend avoiding any strenuous activities and trying to manage your stress levels as best as you can.
+Patient: Thank you, Doctor. I'll do my best.
+Doctor: You're welcome. I'll have my nurse schedule those tests for you, and we'll follow up once we have the results.
+Patient: Alright, Doctor. Thank you again for your help.
+Doctor: Of course, Mr. Smith. Take care, and we'll be in touch soon.
